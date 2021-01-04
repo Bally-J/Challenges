@@ -11,7 +11,7 @@ namespace PalindromeApp
                 Console.WriteLine("Enter value:");
                 response = Console.ReadLine();
 
-                Console.WriteLine("Palindrome calculated 1000 times, using String manipulation");
+                Console.WriteLine("Palindrome calculated 100000 times, using String manipulation");
                 var watch = new System.Diagnostics.Stopwatch();
                 watch.Start();
                 for (int i = 0; i < 100000; i++)
@@ -24,7 +24,7 @@ namespace PalindromeApp
 
 
                 watch.Reset();
-                Console.WriteLine("Palindrome calculated 1000 times, using number calculation");
+                Console.WriteLine("Palindrome calculated 100000 times, using number calculation");
                 watch.Start();
                 for (int i = 0; i < 100000; i++)
                 {
